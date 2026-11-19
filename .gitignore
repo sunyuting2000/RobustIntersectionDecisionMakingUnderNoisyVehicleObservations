@@ -1,0 +1,52 @@
+# Generated experiment results, checkpoint files, and local refactor checks
+/results/
+/videos/
+/figures/
+/.smoke_results/
+/.refactor_checks/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Reports, presentations, archives, and generated media
+*.tex
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.pdf
+*.docx
+*.pptx
+*.mp4
+*.webm
+*.gif
+*.png
+*.zip
+*.csv
+*.jsonl
+*.npz

@@ -1,0 +1,4 @@
+-r requirements.txt
+# Optional: recording the report evidence and matched comparison videos.
+moviepy==2.2.1
+imageio-ffmpeg==0.6.0
